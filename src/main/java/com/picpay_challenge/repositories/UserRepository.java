@@ -11,5 +11,5 @@ import java.util.List;
 public interface UserRepository extends JpaRepository<User, Long> {
     Optional<User> findUserByDocument(String document);
 
-    Optional<User> findById(Long id);
+    Optional<User> findUserById(Long id);
 }
